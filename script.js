@@ -1,12 +1,23 @@
 function stringChop(str, size) {
-const result = [];
+onst result = [];
 	
-  for (let i = 0; i < str.length; i += size) {
-    result.push(str.substring(i, i + size));
+  while(true)
+  {
+    if(size<str.length)
+    {
+      result.push(str.substring(0,size));
+      str=str.substring(size);
+    }
+    else
+    {
+      result.push(str.substring(0));
+      break;
+
+    }
+    
   }
-	
-  let fnal=JSON.stringify(result);
-	return(fnal)
+let pro=JSON.stringify(result);
+return(pro);
 }
 
 // Do not change the code below
