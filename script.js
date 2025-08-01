@@ -1,5 +1,5 @@
 function stringChop(str, size) {
-onst result = [];
+const result = []; 
 	
   while(true)
   {
