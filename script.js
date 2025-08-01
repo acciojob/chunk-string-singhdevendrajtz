@@ -1,8 +1,7 @@
 function stringChop(str, size) {
   // your code here
-let n=size;
-let n=5;
-n_cuur=n;
+let  n=size;
+let n_cuur=n;
 let init=0;
 let strf="[";
 while(true)
@@ -18,14 +17,14 @@ while(true)
  strf+='"'
 strf+=(str.substring(init,n_cuur));
 strf+='", '
-init+=n;
-n_cuur+=n;
+		str=(str.substring(init,n_cuur);
+
     }
 }
-
-return(strf);
+str=strf;
+return(str);
+	
 }
-
 // Do not change the code below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size."); 
